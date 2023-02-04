@@ -51,7 +51,8 @@ html {
 
 body {
     margin: 0 auto;
-    display: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /*Menu - Mobile First Style*/
