@@ -108,3 +108,35 @@ body {
     margin: 0 auto;
     color: white;
 }
+
+/*Scroll*/
+
+.scroll {
+    display: grid;
+    grid-template-columns: repeat (5, 1fr);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.scroll section {
+    margin: 10px;
+    position: relative;
+}
+.scroll div {
+    position: absolute;
+    top: 251px;
+    background-color: rgba (255,255,255,.75);
+    padding: 5px;
+    height: 50px;
+    width: 350px;
+}
+dl {
+    display: flex;
+}
+dt {
+    padding-right: 5px;
+}
+audio {
+    position: absolute;
+    bottom: 150px;
+    left: 5px;
+}
