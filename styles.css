@@ -106,6 +106,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 
 body {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     margin: 0 auto;
     color: white;
 }
