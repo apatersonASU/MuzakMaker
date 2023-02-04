@@ -47,13 +47,11 @@ table {
 html {
     background-color: #020659;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
 }
 
 body {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
 }
 
 /*Menu - Mobile First Style*/
