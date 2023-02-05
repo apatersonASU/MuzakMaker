@@ -118,7 +118,9 @@ h1, h2, h3 {
     font-weight: bold;
     text-transform: uppercase;
 }
-
+ol, ul {
+    list-style: none;
+}    
 #trending {
     display: grid;
     height: 250px;
@@ -129,7 +131,7 @@ h1, h2, h3 {
 
 .scroll {
     display: grid;
-    grid-template-columns: repeat (5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     overflow-x: auto;
     overflow-y: hidden;
 }
@@ -140,7 +142,7 @@ h1, h2, h3 {
 .scroll div {
     position: absolute;
     top: 251px;
-    background-color: rgba (255,255,255,.75);
+    background-color: rgba(255,255,255,.75);
     padding: 5px;
     height: 50px;
     width: 350px;
