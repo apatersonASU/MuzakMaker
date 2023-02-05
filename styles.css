@@ -108,6 +108,10 @@ body {
     margin: 0 auto;
     color: white;
 }
+#trending {
+    height: 250px;
+    width: 375px;
+}
 
 /*Scroll*/
 
