@@ -109,6 +109,7 @@ body {
     color: white;
 }
 #trending {
+    display: grid;
     height: 250px;
     width: 375px;
 }
